@@ -1,0 +1,80 @@
+/* 
+    Document   : pagina
+    Created on : 27-sep-2008, 16:29:29
+    Author     : Ton van Beuningen
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+h2 {
+    color: #000FFF;
+    text-align: center;
+    margin: 0px;
+}
+
+#wrapper {
+    overflow: auto;
+    display: block;
+    margin: auto;
+    background-color: #FFFFCC;
+    border-style: outset;
+    font-family: Arial,Helvetica,sans-serif;
+    padding: 10px;
+    width: 95%;
+}
+table {
+    border-width: 1px;
+    border-style: outset;
+    border-color: gray;
+    border-collapse: collapse;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+th {
+    border: 1px solid gray;
+    padding: 1px;
+    background-color: white;
+    text-align: left;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 1px;
+    background-color: white;
+    text-align: left;
+}
+
+fieldset {
+  display: block;
+  width: 35em;
+  margin: auto;
+  padding: 1em;
+} 
+
+label {
+  width: 18em;
+  float: left;
+  text-align: left;
+  font-weight: bold;
+}
+
+.separation {
+    margin-right: 1.5em;
+    display: inline;
+}
+
+#knoppenbalk {
+    text-align: center;
+    width: 100%;
+    background-color: #EEEEBB;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    font-size: 0.8em;
+}
